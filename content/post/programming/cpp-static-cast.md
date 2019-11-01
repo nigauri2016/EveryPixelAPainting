@@ -27,3 +27,15 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+## 三种cast
+
+在c++有如下三种cast
+
+- static_cast 
+- reinterpret_cast 
+- dynamic_cast 
+
+在使用过程中有时会有一些疑惑，现在记录下来以供以后回顾查阅
+
+### 

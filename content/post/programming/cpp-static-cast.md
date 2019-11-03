@@ -44,6 +44,7 @@ projects: []
 
 - int->float这样的转换：由于int和float的存储方式（各个bit位表示的内容）不一样，static_cast可以转换内存的layout，使得int的值可以正确的转换成float的值。
 - 继承当中base<->derived的互相转换，static_cast保证了转换之后的类指针能够正确的指向对应的内存地址，注意不同类的地址是不同的。
+- 注意向下转换是不安全的。
 
 ### reinterpret_cast
 
